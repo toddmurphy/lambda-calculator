@@ -13,16 +13,14 @@ const Numbers = () => {
   const [buttonNumber, setButtonNumber] = useState(numbers);
 
   return (
-    
-
-    <div>
-      <div>
-        {buttonNumber.map((button, index) => (
-          console.log(button)
-          <NumberButton key={index}, button={button} />
-       ))}
-      </div>    
-    </div>
+    // <div>
+    //   {buttonNumber.map((number, index) => (
+    //     <NumberButton key={index} number={number} />
+    //   ))}
+    // </div>
+    buttonNumber.map((number, index) => {
+      return <NumberButton key={index} number={number} />;
+    })
   );
 };
 
