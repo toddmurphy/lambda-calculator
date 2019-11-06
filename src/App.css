@@ -21,11 +21,13 @@
   font-size: 5rem;
 }
 
-.special-buttons {
-  border: 1px solid blue;
+.specials-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+.special-buttons {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -33,5 +35,4 @@
   color: #fff;
   font-size: 2.4rem;
   box-shadow: -2px 5px #322c2d;
-  margin: 5% 0;
 }
