@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 
-const Display = () => {
-  const [total, setTotal] = useState(0);
-
+const Display = props => {
   return (
     <div className="display">
-      <span>{total}</span>
+      <span>{props.total}</span>
     </div>
   );
 };
