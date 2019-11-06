@@ -4,7 +4,7 @@ const SpecialButton = props => {
   return (
     //pass props to output button
     <div>
-      <span>{props.character}</span>
+      <span className="special-buttons">{props.character}</span>
     </div>
   );
 };
